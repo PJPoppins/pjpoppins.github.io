@@ -1,4 +1,3 @@
 $('#formToggle').click(function () {
-  $('#expressionBlurb').slideToggle();
-  $('#expressionForm').slideToggle('slow');
+  $('#expressionBlurb, #expressionForm').slideToggle('slow');
 });
