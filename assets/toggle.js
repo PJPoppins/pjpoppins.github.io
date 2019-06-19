@@ -1,4 +1,4 @@
 $('#formToggle').click(function () {
-  $('#expressionBlurb').hide();
+  $('#expressionBlurb').slideToggle();
   $('#expressionForm').slideToggle('slow');
 });
